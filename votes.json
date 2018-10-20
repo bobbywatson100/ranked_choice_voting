@@ -1,0 +1,77 @@
+{
+  "choices":["Breath of Fire IV","Digimon Story Cyber Sleuth",
+             "Dragon Quest VII","Dragon Quest VIII","Fire Emblem Echoes",
+             "Legend of Heroes: Trails of Cold Steel","Legend of Heroes: Trails in the Sky SC",
+             "Xenoblade Chronicles", "Xenosaga 1"],
+  "votes": [
+      {
+        "voter": "LastSurpise",
+        "choices": [ "Fire Emblem Echoes", "Legend of Heroes: Trails of Cold Steel", "Xenoblade Chronicles" ]
+      },
+      {
+        "voter": "ClockworkHouse",
+        "choices":[ "Dragon Quest VII", "Xenoblade Chronicles" ]
+      },
+      {
+        "voter": "Bubblefuzz",
+        "choices":[ "Dragon Quest VIII", "Legend of Heroes: Trails of Cold Steel", "Dragon Quest VII" ]
+      },
+      {
+        "voter": "bobbywatson",
+        "choices":[ "Dragon Quest VII", "Breath of Fire IV", "Legend of Heroes: Trails of Cold Steel" ]
+      },
+      {
+        "voter": "Fastmav347",
+        "choices": [ "Dragon Quest VII", "Breath of Fire IV", "Xenoblade Chronicles" ]
+      },
+      {
+        "voter": "Mr GT Chris",
+        "choices":[ "Legend of Heroes: Trails of Cold Steel", "Digimon Story Cyber Sleuth", "Xenoblade Chronicles"]
+      },
+      {
+        "voter": "walterqchocobo",
+        "choices": [ "Legend of Heroes: Trails of Cold Steel", "Breath of Fire IV"]
+      },
+      {
+        "voter": "Godzilla Blitz",
+        "choices": [ "Dragon Quest VII","Dragon Quest VIII", "Fire Emblem Echoes"]
+      },
+      {
+        "voter": "fuzzyslug",
+        "choices":[ "Dragon Quest VII", "Xenoblade Chronicles", "Dragon Quest VIII"]
+      },
+      {
+        "voter": "steinkrug",
+        "choices": [ "Dragon Quest VII", "Legend of Heroes: Trails in the Sky SC" ]
+      },
+      {
+        "voter": "Ted",
+        "choices": [ "Breath of Fire IV" ]
+      },
+      {
+        "voter": "JohnKillo",
+        "choices": [ "Legend of Heroes: Trails of Cold Steel", "Dragon Quest VIII", "Xenosaga 1"]
+      },
+      {
+        "voter": "Sundown",
+        "choices": [ "Dragon Quest VIII" ]
+      },
+      {
+        "voter": "Malkroth",
+        "choices": [ "Legend of Heroes: Trails of Cold Steel","Legend of Heroes: Trails in the Sky SC", "Xenoblade Chronicles" ]
+      },
+      {
+        "voter": "merphle",
+        "choices": [ "Xenoblade Chronicles" ]
+      },
+      {
+        "voter": "CptDomano",
+        "choices": [ "Dragon Quest VII", "Dragon Quest VIII", "Xenoblade Chronicles"]
+      },
+      {
+        "voter": "Wembley",
+        "choices": [ "Dragon Quest VII" ]
+      }
+
+  ]
+}
