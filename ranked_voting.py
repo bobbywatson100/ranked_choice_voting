@@ -12,15 +12,36 @@ def initGamesDict(choices):
 
     return gamesDict
 
+def countTotalVotes(gamesDict, votes):
+
+# Clone gamesDict into a new dictionary
+    totalVotes = gamesDict.copy()
+
+# Count the number of times a game has been voted for
+    for vote in votes:
+        for choice in vote["choices"]:
+            totalVotes[choice] += 1
+
+    print("==================> Total vote count per game: ")
+    # totalVotes = sorted(totalVotes, key=totalVotes.get, reverse=True)
+    for w in sorted(totalVotes, key=totalVotes.get, reverse=True):
+        print(w, totalVotes[w])
+
+    return totalVotes
+
+def resetVoteCount(gamesDict):
+    for game in gamesDict:
+        gamesDict[game] = 0
+
 # This function removes games with the lowest number of votes from the games dictionary and
 #    from all players' choices
 def disqualifyGames(gamesDict, votes, numVotes):
     gamesToRemove = []
 
-# Remove games with the least number of votes fromt the master game dictionary
+# Remove games with the least number of votes from the master game dictionary
     for game in gamesDict:
-        if gamesDict[game] == numVotes:
-            print("Removing ", game, " with ", numVotes, " votes")
+        if gamesDict[game] <= numVotes:
+            print("Removing ", game, " with ", gamesDict[game], " votes")
             gamesToRemove.append(game)
 
     for gameToRemove in gamesToRemove:
@@ -40,8 +61,12 @@ def votingRound(gamesDict, votes):
 # Count how many times games are ranked as the highest
     for vote in votes:
         choices = vote["choices"]
-        if choices[0] != None:
-            gamesDict[choices[0]] = gamesDict[choices[0]] + 1
+        if len(choices) > 0:
+            gamesDict[choices[0]] += 1
+
+# Print results after vote count
+    print("Results for iteration ", x)
+    pprint(gamesDict)
 
 # Check if the current game has the majority of votes
     for game in gamesDict:
@@ -50,18 +75,11 @@ def votingRound(gamesDict, votes):
             break
         else:
 # Determine if the current game has the lowest number of votes so far
-            if leastVotes == None or gamesDict[game] < leastVotes:
+            if (leastVotes == None or gamesDict[game] < leastVotes) and gamesDict[game] > 0:
                 leastVotes = gamesDict[game]
 
 # If no game has the majority, remove the least voted for game from all votes
     if gameHasMajority == None:
-#        for vote in votes:
-#            choices = vote["choices"]
-#            if leastVotedGame in choices:
-#                choices.remove(leastVotedGame)
-# And also remove the least voted game from the list of gamesDict
-
-#        del gamesDict[leastVotedGame]
         disqualifyGames(gamesDict, votes, leastVotes)
         return None
     else:
@@ -72,17 +90,17 @@ print("======================= START OF PROCESSING ========================")
 with open("votes.json") as f:
     data = json.load(f)
 
-gamesDict = initGamesDict(data["choices"]);
+gamesDict = initGamesDict(data["choices"])
 
+# Calculate the total number of votes per game
+totalVotes = countTotalVotes(gamesDict, data["votes"])
 
-for x in range(1,4):
+for x in range(1,10):
 
-    print("======= Iteration", x, " ===========")
+    print("==================> Iteration ", x)
+    resetVoteCount(gamesDict)
 
     votingResult = votingRound(gamesDict, data["votes"])
-
-    print("Results for iteration ", x)
-    pprint(gamesDict)
 
 # If a winner has been found, show it an exit
     if votingResult:
