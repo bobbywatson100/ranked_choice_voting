@@ -1,112 +1,124 @@
 {
-  "choices":["Breath of Fire IV",
-             "Fire Emblem Echoes",
-             "Last Remnant",
-             "Legend of Heroes: Trails of Cold Steel",
-             "Legend of Heroes: Trails in the Sky SC",
+  "choices":["Atelier Firis",
+             "Chrono Trigger",
+             "Dragon's Dogma",
+             "Final Fantasy XIII-2",
+             "Front Mission 3",
+             "Ni no Kuni",
              "Odin Sphere",
-             "Persona 5",
-             "Xenoblade Chronicles"],
+             "Star Ocean",
+             "Strange Journey",
+             "World Ends With You",
+             "Ys Origin",
+             "Ys VIII"],
   "votes": [
       {
-        "voter": "LastSurprise",
-        "choices": [ "Persona 5",
-                     "Odin Sphere",
-                     "Last Remnant",
-                     "Legend of Heroes: Trails of Cold Steel",
-                     "Fire Emblem Echoes",
-                     "Xenoblade Chronicles",
-                     "Legend of Heroes: Trails in the Sky SC",
-                     "Breath of Fire IV"]
-      },
-      {
-        "voter": "ClockworkHouse",
-        "choices":[ "Persona 5",
-                    "Legend of Heroes: Trails of Cold Steel",
-                    "Last Remnant" ]
+      "voter": "A_Unicycle",
+      "choices": [ "Ys Origin",
+                   "Front Mission 3",
+                   "Atelier Firis",
+                   "Dragon's Dogma" ]
       },
       {
         "voter": "bobbywatson",
-        "choices":[ "Last Remnant",
-                    "Legend of Heroes: Trails of Cold Steel",
-                    "Breath of Fire IV",
-                    "Persona 5",
-                    "Odin Sphere"  ]
-      },
-      {
-        "voter": "Mr GT Chris",
-        "choices":[ "Odin Sphere",
-                    "Xenoblade Chronicles",
-                    "Breath of Fire IV",
-                    "Legend of Heroes: Trails in the Sky SC",
-                    "Legend of Heroes: Trails of Cold Steel" ]
-      },
-      {
-        "voter": "walterqchocobo",
-        "choices": [ "Legend of Heroes: Trails of Cold Steel",
-                     "Breath of Fire IV" ]
-      },
-      {
-        "voter": "Wembley",
-        "choices": [ "Persona 5",
-                    "Legend of Heroes: Trails of Cold Steel",
-                    "Last Remnant" ]
-      },
-      {
-        "voter": "Fastmav347",
-        "choices": [ "Odin Sphere",
-                    "Breath of Fire IV",
-                    "Last Remnant" ]
+        "choices":[ "Star Ocean",
+                    "World Ends With You",
+                    "Chrono Trigger",
+                    "Final Fantasy XIII-2",
+                    "Front Mission 3",
+                    "Strange Journey" ]
       },
       {
         "voter": "brokenclavicle",
-        "choices": [ "Legend of Heroes: Trails of Cold Steel",
-                     "Persona 5",
-                     "Xenoblade Chronicles"]
-      },
-      {
-        "voter": "Godzilla Blitz",
-        "choices": [ "Persona 5",
-                     "Fire Emblem Echoes",
-                     "Legend of Heroes: Trails of Cold Steel",
-                     "Breath of Fire IV",
-                     "Xenoblade Chronicles",
-                     "Odin Sphere",
-                     "Legend of Heroes: Trails in the Sky SC",
-                     "Last Remnant" ]
+        "choices": [ "Final Fantasy XIII-2",
+                     "Ys VIII",
+                     "Ni no Kuni",
+                     "Ys Origin", 
+                     "Chrono Trigger",
+                     "World Ends With You" ]
       },
       {
         "voter": "Bubblefuzz",
-        "choices": [ "Persona 5",
-                     "Legend of Heroes: Trails of Cold Steel",
-                     "Odin Sphere" ]
-      },
-      {
-        "voter": "fuzzyslug",
-        "choices": [ "Xenoblade Chronicles",
-                     "Persona 5",
+        "choices": [ "Ys VIII",
+                     "Ys Origin",
                      "Odin Sphere",
-                     "Fire Emblem Echoes" ]
+                     "Dragon's Dogma" ]
       },
       {
-        "voter": "Forlorn Hope",
-        "choices": [ "Persona 5",
-                     "Xenoblade Chronicles" ]
-      },
-      {
-        "voter": "Malkroth",
-        "choices": [ "Odin Sphere",
-                    "Legend of Heroes: Trails in the Sky SC",
-                    "Xenoblade Chronicles",
-                    "Persona 5",
-                    "Legend of Heroes: Trails of Cold Steel",
-                    "Last Remnant" ]
+        "voter": "Cronox",
+        "choices": [ "Ni no Kuni",
+                     "Ys Origin",
+                     "Chrono Trigger",
+                     "Final Fantasy XIII-2",
+                     "World Ends With You",
+                     "Atelier Firis",
+                     "Dragon's Dogma" ]
       },
       {
         "voter": "Fastmav347",
-        "choices": [ "Odin Sphere",
-                    "Last Remnant",
-                    "Persona 5" ]
+        "choices": [ "Atelier Firis",
+                     "Ys Origin",
+                     "Star Ocean",
+                     "Dragon's Dogma",
+                     "Odin Sphere",
+                     "Front Mission 3",
+                     "Final Fantasy XIII-2",
+                     "Chrono Trigger",
+                     "World Ends With You" ]
+      },
+      {
+        "voter": "LastSurprise",
+        "choices": [ "Ni no Kuni",
+                     "Ys VIII",
+                     "Atelier Firis",
+                     "Ys Origin",
+                     "Odin Sphere",
+                     "Star Ocean",
+                     "Strange Journey",
+                     "Dragon's Dogma",
+                     "World Ends With You",
+                     "Chrono Trigger",
+                     "Final Fantasy XIII-2",
+                     "Front Mission 3" ]
+      },
+      {
+        "voter": "Malkroth",
+        "choices":[ "Odin Sphere",
+                    "Ys Origin",
+                    "Ys VIII",
+                    "Atelier Firis",
+                    "Ni no Kuni",
+                    "Final Fantasy XIII-2"]
+      },
+      {
+        "voter": "Mr GT Chris",
+        "choices":[ "Atelier Firis",
+                    "Chrono Trigger",
+                    "Dragon's Dogma",
+                    "Final Fantasy XIII-2",
+                    "World Ends With You"
+                  ]
+      },
+      {
+        "voter": "Sundown",
+        "choices": [ "Ys VIII",
+                     "World Ends With You",
+                     "Atelier Firis",
+                     "Chrono Trigger" ]
+      },
+      {
+        "voter": "Ted",
+        "choices": [ "Dragon's Dogma",
+                     "Strange Journey",
+                     "Chrono Trigger" ]
+      },
+      {
+        "voter": "Wembley",
+        "choices": [ "Chrono Trigger",
+                     "Ni no Kuni",
+                     "Odin Sphere",
+                     "Star Ocean",
+                     "Ys Origin" ]
       }
   ]
 }
