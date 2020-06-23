@@ -1,0 +1,35 @@
+[games]
+AS	Atelier Sophie
+BCN	Battlechasers Nightwar
+BR	Blue Reflection
+CT	Chrono Trigger
+DD	Dragon's Dogma
+FFVI	Final Fantasy VI
+FFXIII2	Final Fantasy XIII-2
+NNK	Ni no Kuni
+OS	Odin Sphere Leifthrasir
+RG	Rogue Galaxy
+TOCS2	Trails of Cold Steel 2
+TV	Tales of Vesperia
+VS	Vagrant Story
+WEWY	The World Ends With You
+XC	Xenoblade Chronicles
+YVIII	Ys VIII
+
+[votes]
+A_Unicycle	BR, TOCS2, BCN
+bobbywatson	FFVI, FFXIII2, RG, CT, WEWY, AS, VS, TOCS2, TV
+brokenclavicle	FFXIII2, YVIII, TOCS2, XC, NNK, VS
+ComfortZone	TOCS2, RG, XC, DD
+Cronox	BCN, CT, FFVI, OS, YVIII
+Darkhaund	YVIII, WEWY, TOCS2, OS, FFXIII2
+fuzzyslug	NNK, BCN, CT, DD
+GodzillaBlitz	DD, CT, FFVI, FFXIII2, BCN, TOCS2, NNK, TV
+LastSurprise	NNK, YVIII, XC, BCN, OS, TOCS2, AS, RG
+Malkroth	OS, TOCS2, XC, BR, YVIII, AS, NNK, DD, VS, CT
+Mr GT Chris	TOCS2, OS, AS, WEWY, VS, FFVI, CT, DD, FFXIII2
+steinkrug	WEWY, FFXIII2, RG
+Sundown	YVIII, TV, WEWY, XC, CT, FFVI
+Ted	XC, FFVI, BCN, DD, CT
+walterqchocobo	TOCS2, YVIII, DD, VS, RG
+Wembley	CT, FFVI, NNK, YVIII, TV
